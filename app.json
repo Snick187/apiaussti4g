@@ -1,4 +1,6 @@
-{
+git add app.json
+git commit -m "Fix: added android.package and eas.projectId"
+git push origin main{
   "expo": {
     "name": "bolt-expo-nativewind",
     "slug": "bolt-expo-nativewind",
