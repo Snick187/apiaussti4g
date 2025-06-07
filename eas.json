@@ -1,14 +1,7 @@
 {
-  "cli": {
-    "appVersionSource": "remote"
-  },
   "build": {
-    "development": {
-    },
-    "preview": {
-    },
-    "production": {
-      "autoIncrement": true
+    "android": {
+      "workflow": "managed"
     }
   }
 }
