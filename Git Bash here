@@ -1,3 +1,0 @@
-git add eas.json
-git commit -m "Fix eas.json for preview build"
-git push origin main
