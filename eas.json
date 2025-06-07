@@ -1,4 +1,4 @@
-(für Preview-APK-Build): {
+{
      "build": {
        "preview": {
          "distribution": "internal",
