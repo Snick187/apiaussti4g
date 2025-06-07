@@ -1,0 +1,26 @@
+workflows:
+  expo-android:
+    name: Expo Android Build
+    max_build_duration: 60
+    environment:
+      vars:
+        EXPO_TOKEN: Encrypted(EXPO_TOKEN)
+      node: 18.16.0
+      java: 17
+      npm: 8.19.4
+    scripts:
+      - npm install -g eas-cli
+      - npm ci
+      - eas build -p android --non-interactive --profile preview
+    artifacts:
+      - dist/**/*.apk
+      - dist/**/*.aab
+      - build/**/*.apk
+      - build/**/*.aab
+    publishing:
+      email:
+        recipients:
+          - mardewei@gmail.com 
+        notify:
+          success: true
+          failure: true
