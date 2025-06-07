@@ -1,8 +1,9 @@
 {
   "build": {
-    "android": {
-      "workflow": "managed"
+    "preview": {
+      "android": {
+        "workflow": "managed"
+      }
     }
   }
 }
-
