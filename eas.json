@@ -1,9 +1,15 @@
-{
-  "build": {
-    "preview": {
-      "android": {
-        "workflow": "internal"
-      }
-    }
-  }
+(für Preview-APK-Build): {
+     "build": {
+       "preview": {
+         "distribution": "internal",
+         "android": {
+           "buildType": "apk"
+         }
+       },
+       "production": {
+         "android": {
+           "buildType": "aab"
+         }
+       }
+     }
 }
