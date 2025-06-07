@@ -9,9 +9,6 @@ workflows:
       java: 17
       npm: 8.19.4
     scripts:
-      -  git add eas.json
-git commit -m "Fix eas.json for preview build"
-git push origin main
       - npm install -g eas-cli
       - npm ci
       - eas build -p android --non-interactive --profile preview
