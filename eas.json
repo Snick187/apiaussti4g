@@ -13,3 +13,6 @@
        }
      }
 }
+"cli": {
+  "appVersionSource": "project"
+}
