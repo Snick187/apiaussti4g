@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Ausstiegsapp4",
-    "slug": "ausstiegsapp4",
+    "slug": "ausstiegsapp4-9n3filqegwdstoa0kv9a",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -33,7 +33,8 @@
     "extra": {
       "router": {},
       "eas": {
-      "projectId": "9a7557f7-16ed-4497-9e2a-fc0184deb2a7"
+      "projectId": 
+  "9a7557f7-16ed-4497-9e2a-fc0184deb2a7"
       }
     }
   }
