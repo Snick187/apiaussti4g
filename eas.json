@@ -1,13 +1,12 @@
 {
+  "cli": {
+    "version": ">= 3.0.0",
+    "appVersionSource": "local"
+  },
   "build": {
-    "production-app1": {
-      "env": {
-        "APP": "app1"
-      }
-    },
-    "production-app2": {
-      "env": {
-        "APP": "app2"
+    "production": {
+      "android": {
+        "buildType": "apk"
       }
     }
   }
